@@ -1,0 +1,43 @@
+# Configuración del plugin FlyPlugin
+
+# Mensaje que se muestra al activar el vuelo
+enable-message: "§a¡Modo vuelo activado!"
+
+# Mensaje que se muestra al desactivar el vuelo
+disable-message: "§c¡Modo vuelo desactivado!"
+
+# Título del menú
+menu-title: "§l§9Menú de Vuelo"
+
+# Descripción del menú
+menu-content: "§7Selecciona una opción para activar o desactivar el modo vuelo."
+
+# Configuración de partículas
+# Tipos disponibles: heart, portal, enchant, flame, water, lava, redstone, smoke, explode, bubble, happy, angry
+default-particle-type: "heart"
+
+# Configuración de animaciones
+# Tipos disponibles: circle, spiral, helix, wings, rain, random
+default-animation-type: "circle"
+
+# Frecuencia de partículas en ticks (20 ticks = 1 segundo)
+# Valores más bajos = más frecuente, pero puede causar más lag
+particle-frequency: 10
+
+# Cantidad de partículas por jugador
+# Valores más altos = más partículas, pero puede causar más lag
+particle-count: 5
+
+# Sonidos
+enable-sound: true
+
+# Configuración de cooldown
+# Habilitar o deshabilitar el tiempo de espera entre usos del comando fly
+cooldown-enabled: true
+
+# Tiempo de espera en segundos
+cooldown-time: 30
+
+# Configuración de guardado de datos
+# Habilitar o deshabilitar el guardado de preferencias de jugadores
+save-player-data: true
