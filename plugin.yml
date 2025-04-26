@@ -1,0 +1,87 @@
+name: FlyPlugin
+main: xreps\FlyPlugin\Main
+version: 1.0.0
+api: 5.0.0
+author: xreps
+description: Plugin que permite a los jugadores activar/desactivar el modo vuelo mediante un menú
+
+commands:
+  fly:
+    description: Activa o desactiva el modo vuelo
+    usage: "/fly"
+    aliases: ["volar"]
+    permission: flyplugin.command.fly
+  flyparticle:
+    description: Personaliza las partículas de vuelo
+    usage: "/flyparticle"
+    aliases: ["flyp"]
+    permission: flyplugin.command.particle
+
+permissions:
+  flyplugin.command.fly:
+    description: Permite usar el comando /fly
+    default: op
+  flyplugin.command.particle:
+    description: Permite personalizar las partículas de vuelo
+    default: op
+  flyplugin.bypass.cooldown:
+    description: Permite omitir el tiempo de espera entre usos del comando fly
+    default: op
+    
+  # Permisos para tipos de partículas
+  flyplugin.particle.heart:
+    description: Permite usar partículas de corazón
+    default: true
+  flyplugin.particle.portal:
+    description: Permite usar partículas de portal
+    default: true
+  flyplugin.particle.enchant:
+    description: Permite usar partículas de encantamiento
+    default: true
+  flyplugin.particle.flame:
+    description: Permite usar partículas de llama
+    default: true
+  flyplugin.particle.water:
+    description: Permite usar partículas de agua
+    default: true
+  flyplugin.particle.lava:
+    description: Permite usar partículas de lava
+    default: op
+  flyplugin.particle.redstone:
+    description: Permite usar partículas de redstone
+    default: op
+  flyplugin.particle.smoke:
+    description: Permite usar partículas de humo
+    default: op
+  flyplugin.particle.explode:
+    description: Permite usar partículas de explosión
+    default: op
+  flyplugin.particle.bubble:
+    description: Permite usar partículas de burbujas
+    default: op
+  flyplugin.particle.happy:
+    description: Permite usar partículas de aldeano feliz
+    default: op
+  flyplugin.particle.angry:
+    description: Permite usar partículas de aldeano enojado
+    default: op
+    
+  # Permisos para tipos de animaciones
+  flyplugin.animation.circle:
+    description: Permite usar la animación de círculo
+    default: true
+  flyplugin.animation.spiral:
+    description: Permite usar la animación de espiral
+    default: true
+  flyplugin.animation.helix:
+    description: Permite usar la animación de hélice
+    default: true
+  flyplugin.animation.wings:
+    description: Permite usar la animación de alas
+    default: op
+  flyplugin.animation.rain:
+    description: Permite usar la animación de lluvia
+    default: op
+  flyplugin.animation.random:
+    description: Permite usar la animación aleatoria
+    default: op
