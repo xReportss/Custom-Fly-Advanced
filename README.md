@@ -55,4 +55,4 @@ El archivo `config.yml` permite personalizar:
 
 ## Licencia
 
-Este proyecto está licenciado bajo [xReportss] - ver el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo xReportss - ver el archivo LICENSE para más detalles.
