@@ -31,13 +31,16 @@ particle-count: 5
 # Sonidos
 enable-sound: true
 
-# Configuración de cooldown
-# Habilitar o deshabilitar el tiempo de espera entre usos del comando fly
-cooldown-enabled: true
+# Tiempo de espera entre usos del comando fly (en segundos)
+# Establece a 0 para desactivar el cooldown
+fly-cooldown: 5
 
-# Tiempo de espera en segundos
-cooldown-time: 30
+# Melodías durante el vuelo
+# Activar o desactivar las melodías durante el vuelo
+enable-melodies: true
 
-# Configuración de guardado de datos
-# Habilitar o deshabilitar el guardado de preferencias de jugadores
-save-player-data: true
+# Frecuencia de reproducción de melodías en ticks (20 ticks = 1 segundo)
+melody-frequency: 40
+
+# Melodía por defecto
+default-melody: "none"
