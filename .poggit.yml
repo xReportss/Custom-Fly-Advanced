@@ -5,4 +5,5 @@ branches:
 projects:
   Custom-Fly-Advanced:
     path: ""
+    logo: "logo.jpg"
 ...
