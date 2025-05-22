@@ -5,13 +5,6 @@ api: 5.0.0
 author: xreps
 description: Plugin que permite a los jugadores activar/desactivar el modo vuelo mediante un menú
 
-commands:
-  fly:
-    description: Activa o desactiva el modo vuelo y personaliza partículas y melodías
-    usage: "/flay [particle|melody]"
-    aliases: ["volar"]
-    permission: flyplugin.command.fly
-
 permissions:
   flyplugin.command.fly:
     description: Permite usar el comando /fly
