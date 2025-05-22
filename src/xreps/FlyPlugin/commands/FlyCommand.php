@@ -23,7 +23,7 @@ class FlyCommand extends Command {
     private MelodyCommand $melodyCommand;
     
     public function __construct(Main $plugin) {
-        parent::__construct("flay", "Activa o desactiva el modo vuelo y personaliza partículas y melodías", "/lol [particle|melody]", ["volar"]);
+        parent::__construct("fly", "Activa o desactiva el modo vuelo y personaliza partículas y melodías", "/lol [particle|melody]", ["volar"]);
         $this->setPermission("flyplugin.command.fly");
         $this->plugin = $plugin;
         
