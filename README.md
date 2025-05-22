@@ -10,7 +10,7 @@ Un plugin avanzado de vuelo para servidores PocketMine-MP que permite a los juga
 - 12 tipos diferentes de partículas
 - 6 animaciones distintas para las partículas
 - Sistema de permisos para controlar el acceso a partículas y animaciones
-- Sistema de Melodías en el efecto de vuelo 
+- Sistema de Sonidos en el efecto de vuelo 
 - Efectos de sonido al activar/desactivar el vuelo
 - Sistema de cooldown configurable
 - Guardado de preferencias entre reinicios del servidor
@@ -24,9 +24,9 @@ Un plugin avanzado de vuelo para servidores PocketMine-MP que permite a los juga
 
 ## Comandos
 
-- `/flay` - Abre el menú de vuelo para activar/desactivar el modo vuelo
-- `/flay p` - Abre el menú de personalización de partículas
-- `/flay m` - Abre el menú de personalizacion de melodías 
+- `/fly` - Abre el menú de vuelo para activar/desactivar el modo vuelo
+- `/fly p` - Abre el menú de personalización de partículas
+- `/fly m` - Abre el menú de personalizacion de sonidos
 
 ## Permisos
 
